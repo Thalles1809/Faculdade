@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    Objetivos:
+    Criar um programa utilizando os conceitos aprendidos na disciplina de programação orientada a objetos, utilizando a
+    linguagem de programação escolhida pelo aluno dentro da lista disponibilizada pelo professor.
+
+    Nota: A avaliação da Atividade Ativa poderá alcançar a pontuação de 20 pontos. A distribuição desses pontos
+    dependerá do atendimento dos critérios de avaliação.
+    Critérios de Avaliação
+    - Quanto ao conteúdo (até 20 pontos)
+    • Executar todas as orientações solicitadas;
+    • Escrever sobre dificuldades encontradas;
+    Instruções para a atividade
+    Desenvolver um programa utilizando a linguagem de programação em python que implemente uma locadora de veículos, que
+    atenda aos requisitos listados abaixo. O programa deve ser escrito com orientação a objetos, atendendo os seguintes
+    requisitos:
+    • Deverá haver um objeto carro, com as características de categoria (Sedan, Picape, SUV), transmissão (automática,
+    manual), tipo de combustível (Diesel, Álcool, Gasolina, Flex, GNV), Marca e Modelo. Outros atributos podem ser
+    adicionados pelo aluno, porém o objeto carro deve conter pelo menos os atributos listados no exemplo:
+
+    Objeto Carro:
+    Categoria: SUV
+    Transmissão: Automática
+    Combustível: Flex
+    Marca: Ford
+    Modelo: EcoSport
+
+    • Novos carros adicionados no sistema da locadora herdam as características do objeto carro, anteriormente
+    cadastrado, podendo alterar os atributos e adicionando outros obrigatórios que será Ano e Placa. Outros atributos
+    podem ser adicionados pelo aluno, porém o objeto deve conter pelo menos os atributos listados no exemplo:
+    Nova instancia do carro:
+    Atributos do objeto carro:
+    Categoria: SUV
+    Transmissão: Automática
+    Combustível: Flex
+    Marca: Ford
+    Modelo: EcoSport
+    Ano: 2020
+    Placa: OIX1983
+
+
+
+
+    • Criar um objeto pai cliente com os atributos listados abaixo. Outros atributos podem ser adicionados pelo aluno,
+    porém o objeto cliente deve conter pelo menos os atributos listados no exemplo:
+
+    Objeto Cliente:
+    Nome: José da Silva
+    CPF: 89775452
+    RG: 789546
+
+    • O cliente poderá fazer a locação de um carro, associando-o a uma instancia de carro previamente criada. A locação
+    envolve um período previamente informado no momento da locação.
+
+    Os métodos necessários para locação, devolução e outros necessários ficam sob responsabilidade do aluno. O exemplo
+    abaixo mostra um exemplo do fluxo de execução do programa:
+
+    Bem-vindo a Locadora Boa Viagem, escolha uma das opções abaixo:
+    1) Cadastrar um Novo Veiculo
+    2) Cadastrar um Novo Cliente
+    3) Realizar a locação de um Veículo
+    4) Relatório de locação
+
+    Escolha uma das opções: 1
+    ++++++++Listar Aqui as categorias previamente cadastradas+++++++++
+    O carro que será cadastrado está em uma das categorias listadas acima [S/N]:N
+    Entre com o nome da categoria: SUV
+    Informe a Transmissão: Automática
+    Informe o tipo de Combustível: Flex
+    Informe a Marca: Ford
+    Informe o Modelo: EcoSport
+
+    Escolha uma das opções: 1
+    Número:1
+    Categoria: SUV
+    Transmissão: Automática
+    Combustível: Flex
+    Marca: Ford
+    Modelo: EcoSport
+    Ano: 2020
+    Placa: OIX1983
+    O carro que será cadastrado está em uma das categorias listadas acima [S/N]:S
+    Escolha o número da Categoria do novo Carro:1
+
+
+    Atributos do objeto carro:
+    Ano: 2020
+    Placa: OIX1983
+
+
+    1) Cadastrar um Novo Veiculo
+    2) Cadastrar um Novo Cliente
+    3) Realizar a locação de um Veículo
+    4) Relatório de locação
+
+
+    Escolha uma das opções: 2
+    Nome: José da Silva
+    CPF: 89775452
+    RG: 789546
+
+    1) Cadastrar um Novo Veiculo
+    2) Cadastrar um Novo Cliente
+    3) Realizar a locação de um Veículo
+    4) Relatório de locação
+
+
+    Escolha uma das opções: 3
+
+    Número:1
+    Categoria: SUV
+    Transmissão: Automática
+    Combustível: Flex
+    Marca: Ford
+    Modelo: EcoSport
+    Ano: 2020
+    Placa: OIX1983
+
+    Qual Carro o cliente irá alugar:1
+    Qual o CPF do cliente: 89775452
+    Qual o início da locação:10/10/2010
+    Qual o fim da locação:20/10/2010
+
+    1) Cadastrar um Novo Veiculo
+    2) Cadastrar um Novo Cliente
+    3) Realizar a locação de um Veículo
+    4) Relatório de locação
+
+    Escolha uma das opções: 4
+
+    Carro Alugado
+
+    Categoria: SUV
+    Transmissão: Automática
+    Combustível: Flex
+    Marca: Ford
+    Modelo: EcoSport
+    Ano: 2020
+    Placa: OIX1983
+
+    Cliente
+
+    Cliente: José da Silva
+    CPF: 89775452
+    RG: 789546
+
+
+    O aluno poderá desenvolver uma interface gráfica ou fazer um menu para execução na console. O aluno deverá elaborar
+    um relatório com as seções Desenvolvimento, testes e conclusão. Na seção Desenvolvimento deve haver uma explicação
+    detalhada do seu código, explicando cada parte do programa, detalhando muito bem cada uma das classes. Na seção
+    testes o aluno deverá mostrar o cadastro de 3 carros, realizando a locação destes para 4 clientes. O último cliente
+    não conseguirá finalizar a locação pela falta de carros. Na seção conclusão o aluno deverá informar as dificuldades
+    encontradas no desenvolvimento deste programa.
+    Orientações de entrega
+    • O relatório deverá ser entregue no formato .pdf na plataforma, juntamente com o código desenvolvido.
+    • Não esqueça de escrever sobre as dificuldades, caso ocorram, e como você resolveu os problemas.
+
+</body>
+
+</html>
